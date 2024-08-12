@@ -1,6 +1,5 @@
 /** @type {import('tailwindcss').Config} */
 
-const defaultTheme = require('tailwindcss/defaultTheme');
 
 export default {
   content: [
@@ -9,9 +8,9 @@ export default {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        libre: ['""DM Sans"', ...defaultTheme.fontFamily.sans]
-      }
+       backgroundImage: {
+        'custom-image': "url('/images/twitter-banner.png')",
+      },
     },
 
   },

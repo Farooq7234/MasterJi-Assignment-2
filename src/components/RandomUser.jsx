@@ -13,7 +13,7 @@ function RandomUser() {
         fetch('https://api.freeapi.app/api/v1/public/randomusers/user/random')
             .then(response => response.json())
             .then(data => {
-                setData(data.data); // Adjusted to access the actual user data
+                setData(data.data); 
                 setLoading(false);
             })
             .catch(error => {
