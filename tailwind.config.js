@@ -10,6 +10,7 @@ export default {
     extend: {
        backgroundImage: {
         'custom-image': "url('/images/twitter-banner.png')",
+        'random-cat': "url('/images/bg_random_cats.png')",
       },
     },
 
